@@ -17,6 +17,7 @@ classifiers = [
 keywords = ["poker", "game", "video-poker"]
 dependencies = [
     "simple-term-menu >= 1.4.1",
+    "colorama == 0.4.4"
 ]
 requires-python = ">=3.10.2"
 
@@ -39,4 +40,4 @@ push            = false
 
 [tool.bumpver.file_patterns]
 "pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
-"src/reader/__init__.py" = ["{version}"]
+"src/video_pyker/__init__.py" = ["{version}"]

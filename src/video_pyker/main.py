@@ -1,3 +1,4 @@
+import colorama
 from .game import Game
 from .screen import Screen
 
@@ -61,6 +62,7 @@ def main_menu(skip_intro=False):
             exit()
 
 def main():
+    colorama.init()
     main_menu()
     
 if __name__ == '__main__':
