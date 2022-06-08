@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-pyker"
+version = "1.0.0"
+description = "A little terminal game for Jacks-or-Better Video Poker."
+readme = "README.md"
+authors = [{ name = "Charlie Morris", email = "charliertm1@gmail.com" }]
+license = { file = "LICENSE.md" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["poker", "game", "video-poker"]
+dependencies = [
+    "simple-term-menu >= 1.4.1",
+]
+requires-python = ">=3.10.2"
+
+[project.urls]
+Homepage = "https://github.com/charliertm/video-pyker"
+
+[project.scripts]
+video-pyker = "video_pyker.__main__:main"
+
+[project.optional-dependencies]
+dev = ["bumpver"]
+
+[tool.bumpver]
+current_version = "1.0.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"src/reader/__init__.py" = ["{version}"]
