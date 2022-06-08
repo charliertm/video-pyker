@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "video-pyker"
-version = "1.0.0"
+version = "1.0.1"
 description = "A little terminal game for Jacks-or-Better Video Poker."
 readme = "README.md"
 authors = [{ name = "Charlie Morris", email = "charliertm1@gmail.com" }]
@@ -31,7 +31,7 @@ video-pyker = "video_pyker.__main__:main"
 dev = ["bumpver"]
 
 [tool.bumpver]
-current_version = "1.0.0"
+current_version = "1.0.1"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "Bump version {old_version} -> {new_version}"
 commit          = true
