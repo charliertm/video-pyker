@@ -5,7 +5,7 @@
        \_/ |_|\__,_|\___|\___/      | .__/ \__, |_|\_\___|_|
                                     |_|    |___/
 
-[![PyPI version](https://badge.fury.io/py/video-pyker.svg)](https://badge.fury.io/py/video-pyker)
+[![PyPI version](https://badge.fury.io/py/video-pyker%2F1.0.1.svg)](https://badge.fury.io/py/video-pyker%2F1.0.1)
 
 ## About
 
