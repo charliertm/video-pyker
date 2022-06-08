@@ -5,6 +5,8 @@
        \_/ |_|\__,_|\___|\___/      | .__/ \__, |_|\_\___|_|
                                     |_|    |___/
 
+[![PyPI version](https://badge.fury.io/py/video-pyker.svg)](https://badge.fury.io/py/video-pyker)
+
 ## About
 
 A little terminal game for Jacks-or-Better [Video Poker](https://www.pokerlistings.com/casino-rules-video-poker#:~:text=Rules%20of%20Video%20Poker). Written in Python.
